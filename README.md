@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/flaxware/flax.system">
-    <img src="images/logo.png" alt="Logo" width="150" height="150">
+    <img src="assets/logo.svg" alt="Logo" width="150" height="150">
   </a>
 
   <h3 align="center">FLAX SYSTEM</h3>
@@ -31,6 +31,9 @@ Repository, *apt* enhance, portable executable extension.
 - Choose rolling or stable, as for single package or multiple packages.
 - Rollback support.
 - Use of cryptographic signatures.
+
+<details>
+<summary>Use instructions</summary>
 
 ## Examples:
 ### Install *.xpkg* through *Thunar*
@@ -93,3 +96,5 @@ sudo superpkg search flax
 sudo superpkg info flax
 ```
 > Actually is implementation of *man* and *info*; in addition also displays size, packages included, and by which user installed.
+
+</details>
